@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Medalheiro — Política de Privacidade</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --bg: #FDF6EC;
+            --surface: #FFFFFF;
+            --text: #3F3327;
+            --text-secondary: #6F5D4C;
+            --accent: #C26300;
+            --accent-light: #FBEBDA;
+            --border: #EFE2D0;
+            --radius: 12px;
+        }
+
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #201A15;
+                --surface: #2A231C;
+                --text: #F2E8DC;
+                --text-secondary: #BCA891;
+                --accent: #EB883B;
+                --accent-light: #3A2A1A;
+                --border: #3A3029;
+            }
+        }
+
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        body {
+            font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 60px 24px 80px;
+        }
+
+        .badge {
+            display: inline-block;
+            font-size: 0.75rem;
+            font-weight: 600;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            color: var(--accent);
+            background: var(--accent-light);
+            padding: 6px 14px;
+            border-radius: 100px;
+            margin-bottom: 20px;
+        }
+
+        h1 {
+            font-family: 'Baloo 2', Georgia, serif;
+            font-size: 2.4rem;
+            font-weight: 700;
+            line-height: 1.2;
+            margin-bottom: 12px;
+            letter-spacing: -0.02em;
+        }
+
+        .subtitle {
+            color: var(--text-secondary);
+            font-size: 1rem;
+            margin-bottom: 48px;
+        }
+
+        .card {
+            background: var(--surface);
+            border: 1px solid var(--border);
+            border-radius: var(--radius);
+            padding: 32px;
+            margin-bottom: 24px;
+        }
+
+        .card h2 {
+            font-family: 'Baloo 2', Georgia, serif;
+            font-size: 1.35rem;
+            font-weight: 600;
+            margin-bottom: 16px;
+            letter-spacing: -0.01em;
+        }
+
+        .card p {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            margin-bottom: 12px;
+        }
+
+        .card p:last-child { margin-bottom: 0; }
+
+        .card ul {
+            color: var(--text-secondary);
+            font-size: 0.95rem;
+            padding-left: 20px;
+            margin-bottom: 12px;
+        }
+
+        .card ul:last-child { margin-bottom: 0; }
+
+        .card li { margin-bottom: 6px; }
+
+        .highlight-box {
+            background: var(--accent-light);
+            border-left: 3px solid var(--accent);
+            border-radius: 0 8px 8px 0;
+            padding: 16px 20px;
+            margin: 16px 0;
+        }
+
+        .highlight-box p {
+            color: var(--text);
+            font-weight: 500;
+            font-size: 0.9rem;
+        }
+
+        .footer-note {
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+            margin-top: 48px;
+            padding-top: 24px;
+            border-top: 1px solid var(--border);
+        }
+
+        a { color: var(--accent); }
+
+        @media (max-width: 600px) {
+            .container { padding: 40px 16px 60px; }
+            h1 { font-size: 1.8rem; }
+            .card { padding: 24px 20px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <span class="badge">Medalheiro</span>
+        <h1>Política de Privacidade</h1>
+        <p class="subtitle">Última atualização: 5 de agosto de 2026</p>
+
+        <div class="card">
+            <h2>Resumo</h2>
+            <div class="highlight-box">
+                <p>O Medalheiro não coleta, armazena, transmite ou compartilha nenhum dado pessoal do usuário. As fotos das suas medalhas nunca saem do seu iPhone: a geração dos modelos 3D acontece inteiramente no dispositivo, sem enviar nada para servidor nenhum. O aplicativo funciona sem conta, sem login e sem conexão com a internet.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <h2>1. Dados coletados</h2>
+            <p>O Medalheiro <strong>não coleta nenhum dado pessoal</strong>. O aplicativo funciona inteiramente offline e não requer login, cadastro, conta de usuário ou qualquer forma de identificação.</p>
+            <p>Nenhuma informação é enviada a servidores externos, APIs de terceiros, serviços de analytics, ferramentas de rastreamento ou redes de publicidade. O aplicativo não possui código de rede: ele não faz requisições à internet.</p>
+        </div>
+
+        <div class="card">
+            <h2>2. Fotos das suas medalhas</h2>
+            <p>O Medalheiro cria modelos 3D a partir de duas fotos de cada medalha — a frente e o verso. Essas fotos podem vir da câmera do seu dispositivo ou da sua fototeca, conforme você escolher.</p>
+            <div class="highlight-box">
+                <p>As fotos são gravadas exclusivamente no seu dispositivo e nunca são enviadas para lugar nenhum. O desenvolvedor não tem acesso a elas.</p>
+            </div>
+            <p>Sobre as fotos importadas da fototeca:</p>
+            <ul>
+                <li>O aplicativo lê apenas as imagens que <strong>você seleciona</strong>, através do seletor padrão do iOS.</li>
+                <li>O Medalheiro não varre, indexa nem lê o restante da sua fototeca.</li>
+                <li>A foto selecionada é recortada, redimensionada e gravada dentro do aplicativo. A imagem original na sua fototeca não é alterada nem excluída.</li>
+            </ul>
+            <p>O Medalheiro nunca escreve fotos na sua fototeca.</p>
+        </div>
+
+        <div class="card">
+            <h2>3. Processamento de imagem no dispositivo</h2>
+            <p>Para transformar duas fotos em um modelo 3D, o Medalheiro utiliza modelos de aprendizado de máquina e visão computacional que rodam <strong>inteiramente no seu iPhone</strong>:</p>
+            <ul>
+                <li><strong>Estimativa de profundidade</strong> através de um modelo Core ML embarcado no próprio aplicativo, executado localmente pelo hardware do dispositivo.</li>
+                <li><strong>Remoção de fundo</strong> através do framework Vision da Apple, também executado localmente.</li>
+            </ul>
+            <div class="highlight-box">
+                <p>Não há inteligência artificial em nuvem, nem envio de imagens para processamento remoto. Nenhuma foto é usada para treinar modelo nenhum, nosso ou de terceiros.</p>
+            </div>
+            <p>Como consequência, o aplicativo gera medalhas normalmente em modo avião, sem conexão de dados.</p>
+        </div>
+
+        <div class="card">
+            <h2>4. Armazenamento de dados</h2>
+            <p>Tudo o que você cria no Medalheiro é armazenado localmente no seu dispositivo, utilizando o framework nativo SwiftData da Apple. Isso inclui:</p>
+            <ul>
+                <li>As fotos da frente e do verso de cada medalha.</li>
+                <li>A geometria 3D gerada e as miniaturas pré-renderizadas.</li>
+                <li>Os dados da prova que você informar — nome, data, distância, tempo, local, classificação, tipo de prova, notas e avaliação.</li>
+                <li>Suas conquistas, molduras, destaques e o recorde do jogo Snake.</li>
+                <li>Os dados do seu perfil — nome, foto e o ano em que começou a correr —, guardados nas preferências do aplicativo.</li>
+            </ul>
+            <p>Não temos acesso a nenhum desses dados. Eles pertencem exclusivamente a você.</p>
+        </div>
+
+        <div class="card">
+            <h2>5. Permissões solicitadas</h2>
+            <p>O Medalheiro solicita apenas duas permissões, ambas no momento em que são necessárias e ambas opcionais:</p>
+            <ul>
+                <li><strong>Câmera</strong> — para fotografar suas medalhas. Se você recusar, o aplicativo continua funcionando: basta importar fotos da fototeca.</li>
+                <li><strong>Fototeca</strong> — para importar fotos já existentes, inclusive a foto do seu perfil.</li>
+            </ul>
+            <p>Você pode conceder ou revogar essas permissões a qualquer momento em <strong>Ajustes do iOS &gt; Medalheiro</strong>. O aplicativo não solicita acesso a localização, contatos, microfone, saúde, notificações ou qualquer outro dado do dispositivo.</p>
+        </div>
+
+        <div class="card">
+            <h2>6. Sem nuvem e sem sincronização</h2>
+            <p>Nesta versão, o Medalheiro <strong>não sincroniza dados</strong> entre dispositivos e não utiliza iCloud, CloudKit ou qualquer outro serviço de armazenamento remoto. Sua coleção existe apenas no dispositivo em que foi criada.</p>
+            <p>Se você fizer backup do seu iPhone pelo iCloud ou pelo computador, os dados do Medalheiro serão incluídos nesse backup, que é gerenciado e protegido pela Apple. Consulte a <a href="https://www.apple.com/legal/privacy/">Política de Privacidade da Apple</a> para saber como esses backups são tratados.</p>
+            <p>Caso a sincronização venha a ser adicionada no futuro, esta política será atualizada antes que o recurso entre em funcionamento.</p>
+        </div>
+
+        <div class="card">
+            <h2>7. Compras e pagamentos</h2>
+            <p>O Medalheiro é gratuito e não possui assinaturas nem compras dentro do aplicativo. Nenhum dado financeiro — como número de cartão, dados bancários ou informações de cobrança — é coletado, processado ou armazenado.</p>
+        </div>
+
+        <div class="card">
+            <h2>8. Dados de crianças</h2>
+            <p>O Medalheiro não coleta dados de nenhum usuário, incluindo menores de idade. Como nenhuma informação pessoal é coletada ou transmitida, o aplicativo está em conformidade com a COPPA (Children's Online Privacy Protection Act) e com regulamentações equivalentes.</p>
+        </div>
+
+        <div class="card">
+            <h2>9. Serviços de terceiros</h2>
+            <p>O Medalheiro não integra nenhum serviço de terceiros. Não utilizamos:</p>
+            <ul>
+                <li>Ferramentas de analytics (Google Analytics, Firebase, Mixpanel, etc.)</li>
+                <li>Serviços de rastreamento de erros (Crashlytics, Sentry, etc.)</li>
+                <li>Redes de publicidade</li>
+                <li>SDKs de redes sociais</li>
+                <li>Serviços de inteligência artificial em nuvem</li>
+            </ul>
+            <p>Os únicos componentes externos ao nosso código são frameworks da própria Apple — SwiftData, Vision, Core ML, SceneKit e AVFoundation —, todos executados localmente no dispositivo.</p>
+        </div>
+
+        <div class="card">
+            <h2>10. Seus direitos</h2>
+            <p>Como seus dados ficam armazenados apenas no seu dispositivo, você tem controle total sobre eles. Você pode:</p>
+            <ul>
+                <li><strong>Visualizar</strong> todos os seus dados diretamente no aplicativo.</li>
+                <li><strong>Editar ou excluir</strong> qualquer medalha a qualquer momento. Excluir uma medalha apaga também as fotos e o modelo 3D dela.</li>
+                <li><strong>Revogar as permissões</strong> de câmera e fototeca em Ajustes do iOS &gt; Medalheiro.</li>
+                <li><strong>Desinstalar o aplicativo</strong> para remover todos os dados locais de uma vez.</li>
+            </ul>
+            <p>Não é necessário solicitar exclusão de dados ao desenvolvedor, pois nenhum dado seu está em nossa posse.</p>
+        </div>
+
+        <div class="card">
+            <h2>11. Alterações nesta política</h2>
+            <p>Caso esta Política de Privacidade seja atualizada, a nova versão será publicada nesta mesma página com a data de atualização revisada. Recomendamos que você consulte esta página periodicamente.</p>
+            <p>Se houver mudanças significativas na forma como tratamos dados — por exemplo, se passarmos a coletar algum tipo de informação ou a sincronizar sua coleção —, notificaremos os usuários através do próprio aplicativo antes que a alteração entre em vigor.</p>
+        </div>
+
+        <div class="card">
+            <h2>12. Contato</h2>
+            <p>Se você tiver dúvidas sobre esta Política de Privacidade, entre em contato:</p>
+            <p><strong>E-mail:</strong> <a href="mailto:medalheiro.support@gmail.com">medalheiro.support@gmail.com</a></p>
+        </div>
+
+        <p class="footer-note">Medalheiro &copy; 2026. Todos os direitos reservados.</p>
+    </div>
+</body>
+</html>
