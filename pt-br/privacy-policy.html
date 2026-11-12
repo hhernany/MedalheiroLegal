@@ -145,13 +145,14 @@
     <div class="container">
         <span class="badge">Medalheiro</span>
         <h1>Política de Privacidade</h1>
-        <p class="subtitle">Última atualização: 1º de setembro de 2026</p>
+        <p class="subtitle">Última atualização: 12 de novembro de 2026</p>
 
         <div class="card">
             <h2>Resumo</h2>
             <div class="highlight-box">
-                <p>A sua coleção fica no seu iPhone. As fotos das suas medalhas, e os nomes, tempos, datas, lugares e anotações das suas provas, nunca são enviados — a geração dos modelos 3D acontece inteiramente no dispositivo. O aplicativo funciona sem conta e sem login.</p>
+                <p>A sua coleção é sua. As fotos das suas medalhas, e os nomes, tempos, datas, lugares e anotações das suas provas, nunca são enviados para nós — a geração dos modelos 3D acontece inteiramente no dispositivo. O aplicativo funciona sem conta e sem login.</p>
             </div>
+            <p>Desde a versão 1.5, se o iCloud estiver ligado para o Medalheiro, a sua coleção também fica guardada na <strong>sua própria conta do iCloud</strong>, para aparecer nos seus outros aparelhos. Essa cópia é sua e não temos acesso a ela. A seção 6 explica como funciona e como desligar.</p>
             <p>Desde a versão 1.1, o Medalheiro envia dois tipos de dado técnico anônimo: relatórios de falha e — onde a lei exige a sua permissão, apenas depois que você a der — contagens de como o aplicativo é usado. Nenhum dos dois carrega qualquer coisa da sua coleção. As seções 1 e 10 dizem exatamente o que é enviado e como desligar.</p>
         </div>
 
@@ -159,7 +160,7 @@
             <h2>1. Dados coletados</h2>
             <p>O Medalheiro não pede conta, login, e-mail nem idade. Ele nunca coleta o seu nome, os seus contatos, a sua localização ou qualquer outra informação que identifique você.</p>
             <div class="highlight-box">
-                <p>Nada da sua coleção é enviado: nenhuma foto, nenhum nome de prova, nenhum tempo, nenhuma data, nenhum lugar, nenhuma anotação e nenhuma avaliação.</p>
+                <p>Nada da sua coleção chega até nós: nenhuma foto, nenhum nome de prova, nenhum tempo, nenhuma data, nenhum lugar, nenhuma anotação e nenhuma avaliação. Com o iCloud ligado, esse mesmo conteúdo é sincronizado para a <strong>sua própria</strong> conta do iCloud — veja a seção 6 —, e não para nós.</p>
             </div>
             <p>O que o aplicativo envia é técnico, anônimo e se limita a duas coisas.</p>
             <p><strong>Relatórios de falha.</strong> Quando o aplicativo para inesperadamente, um relatório é enviado para que o defeito possa ser encontrado e corrigido. Ele contém o estado do programa no momento em que parou, o modelo do aparelho, a versão do iOS, a versão do aplicativo e a trilha dos passos técnicos que o aplicativo tinha dado antes. Não contém nada que você digitou nem nada que você fotografou.</p>
@@ -190,7 +191,7 @@
                 <li><strong>Remoção de fundo</strong> através do framework Vision da Apple, também executado localmente.</li>
             </ul>
             <div class="highlight-box">
-                <p>Não há inteligência artificial em nuvem, nem envio de imagens para processamento remoto. Nenhuma foto é usada para treinar modelo nenhum, nosso ou de terceiros.</p>
+                <p>Não há inteligência artificial em nuvem: nenhuma imagem é enviada a lugar nenhum <strong>para ser processada</strong>, e nenhuma foto é usada para treinar modelo nenhum, nosso ou de terceiros. Isso é diferente de armazenamento — com o iCloud ligado, as suas fotos são copiadas para a sua própria conta do iCloud para que a coleção sincronize, que é a seção 6.</p>
             </div>
             <p>Como consequência, o aplicativo gera medalhas normalmente em modo avião, sem conexão de dados.</p>
         </div>
@@ -202,9 +203,10 @@
                 <li>As fotos da frente e do verso de cada medalha.</li>
                 <li>A geometria 3D gerada e as miniaturas pré-renderizadas.</li>
                 <li>Os dados da prova que você informar — nome, data, distância, tempo, local, classificação, tipo de prova, notas e avaliação.</li>
-                <li>Suas conquistas, molduras, destaques e o recorde do jogo Snake.</li>
+                <li>Suas conquistas, molduras, destaques, a cor de fundo escolhida para cada medalha e os seus placares nos jogos.</li>
                 <li>Os dados do seu perfil — nome, foto e o ano em que começou a correr —, guardados nas preferências do aplicativo.</li>
             </ul>
+            <p>Com o iCloud ligado para o Medalheiro, os mesmos dados também ficam guardados no seu banco privado do iCloud, sob a sua Conta Apple. Quem os guarda é a Apple; nós não. A seção 6 explica.</p>
             <p>Não temos acesso a nenhum desses dados. Eles pertencem exclusivamente a você.</p>
         </div>
 
@@ -219,15 +221,23 @@
         </div>
 
         <div class="card">
-            <h2>6. Sem nuvem e sem sincronização</h2>
-            <p>Nesta versão, o Medalheiro <strong>não sincroniza dados</strong> entre dispositivos e não utiliza iCloud, CloudKit ou qualquer outro serviço de armazenamento remoto. Sua coleção existe apenas no dispositivo em que foi criada.</p>
-            <p>Se você fizer backup do seu iPhone pelo iCloud ou pelo computador, os dados do Medalheiro serão incluídos nesse backup, que é gerenciado e protegido pela Apple. Consulte a <a href="https://www.apple.com/legal/privacy/">Política de Privacidade da Apple</a> para saber como esses backups são tratados.</p>
-            <p>Caso a sincronização venha a ser adicionada no futuro, esta política será atualizada antes que o recurso entre em funcionamento.</p>
+            <h2>6. Sincronização pelo iCloud</h2>
+            <p>Desde a versão 1.5, o Medalheiro sincroniza a sua coleção pelo <strong>CloudKit</strong>, serviço da Apple, para que as medalhas adicionadas num aparelho apareçam nos outros conectados à mesma Conta Apple.</p>
+            <p>Três coisas sobre isso:</p>
+            <ul>
+                <li><strong>A conta é sua, não nossa.</strong> Os dados vão para o seu banco <em>privado</em> do iCloud. Não podemos lê-los, listá-los nem recuperá-los — e ninguém mais pode, além de quem tiver acesso à sua Conta Apple.</li>
+                <li><strong>O controle está nos Ajustes do iOS.</strong> Desligue o iCloud Drive para o Medalheiro — <strong>Ajustes &gt; seu nome &gt; iCloud</strong> — e o aplicativo continua funcionando, com a coleção guardada apenas naquele aparelho.</li>
+                <li><strong>Quem guarda é a Apple.</strong> Como o iCloud armazena e protege esses dados é assunto da <a href="https://www.apple.com/legal/privacy/">Política de Privacidade da Apple</a>, não desta aqui.</li>
+            </ul>
+            <p>Nada da sua coleção vai para servidores nossos — não temos nenhum. Os dados técnicos anônimos das seções 1 e 10 são outra coisa e não passam nem perto do iCloud.</p>
+            <p>Se você fizer backup do seu iPhone pelo iCloud ou pelo computador, os dados do Medalheiro serão incluídos nesse backup, que é gerenciado e protegido pela Apple.</p>
         </div>
 
         <div class="card">
             <h2>7. Compras e pagamentos</h2>
-            <p>O Medalheiro é gratuito e não possui assinaturas nem compras dentro do aplicativo. Nenhum dado financeiro — como número de cartão, dados bancários ou informações de cobrança — é coletado, processado ou armazenado.</p>
+            <p>O Medalheiro é gratuito. Desde a versão 1.5 ele também oferece o <strong>Medalheiro Pro</strong>, como assinatura mensal, assinatura anual ou compra única vitalícia.</p>
+            <p>Toda compra é processada pela Apple, pela App Store. <strong>Nenhum dado financeiro — número de cartão, dados bancários ou informações de cobrança — é coletado, processado, armazenado ou visto por nós em momento algum.</strong> O que o aplicativo recebe da Apple é a resposta a uma única pergunta: se existe uma compra ativa nesta Conta Apple. Nada que identifique você acompanha essa resposta.</p>
+            <p>Gerenciar, restaurar ou cancelar uma assinatura se faz em <strong>Ajustes &gt; seu nome &gt; Assinaturas</strong>, e reembolsos são pedidos à Apple.</p>
         </div>
 
         <div class="card">
@@ -277,7 +287,7 @@
         <div class="card">
             <h2>12. Alterações nesta política</h2>
             <p>Caso esta Política de Privacidade seja atualizada, a nova versão será publicada nesta mesma página com a data de atualização revisada. Recomendamos que você consulte esta página periodicamente.</p>
-            <p>Se houver mudanças significativas na forma como tratamos dados — por exemplo, se passarmos a coletar algum tipo de informação ou a sincronizar sua coleção —, notificaremos os usuários através do próprio aplicativo antes que a alteração entre em vigor.</p>
+            <p>Se houver mudanças significativas na forma como tratamos dados — por exemplo, se passarmos a coletar algum tipo de informação que não coletamos hoje —, a política atualizada será publicada aqui, com a nova data, <strong>antes que a alteração entre em vigor</strong>.</p>
         </div>
 
         <div class="card">
